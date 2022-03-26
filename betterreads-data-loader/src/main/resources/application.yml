@@ -1,0 +1,25 @@
+datadump.location:
+  author: src/main/resources/test-authors.txt
+  work: src/main/resources/test-works.txt
+
+spring:
+  data:
+    cassandra:
+      key-space-name: main
+      username: EOZycdleiZOvnsoQDlKrhfPJ
+      password: xwBSmA_6Yj3nZxQoE8tm,3Eli0_sMMgDwxHYRf._HDfLTUJXFNljO7KbdhEIO6KQ.uToUCZo1Im+Tvzn293KK-0+,9s,-01NkqvSmIJYGzmbxjNIM-C-kdRA7cAN,Z6w
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-betterreads.zip
+
+astra.db:
+  id: 3e2f89ad-a4ae-47b5-8c21-2346a089df35-1
+  region: asia-south1
+  keyspace: main
+  application.token: AstraCS:EOZycdleiZOvnsoQDlKrhfPJ:ad82045ff72f14df05272efc0e3251ece9a81b467a4d4f2b452631c9448ec37e
